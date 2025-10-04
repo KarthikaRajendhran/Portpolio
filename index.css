@@ -1,0 +1,1530 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:black !important;
+    /* border: 2px solid white; */
+
+}
+.CONTAINER{    
+}
+.PORTPOLIO-WELCOME{
+    width:100%;
+    min-height:640px;
+    position: relative;
+    overflow: hidden; 
+/* background-color: blue; */
+    display: grid;
+    align-items: center;
+}
+.FRONTBOX{
+    /* border: 2px solid white; */
+/* border-radius: 9px; */
+    /* background-color: aquamarine; */
+}
+.CIRCLE{
+    background-color: black;
+    border:4px solid rgb(170, 8, 97);
+    height:725px;
+    width:800px;
+    border-radius: 50%;
+    position: absolute;
+    left:-25%;
+}
+.THREEDOT{
+    display: flex;
+    width:12%;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 100px;
+    right:34%;
+  .DOT{
+    background-color:rgb(170, 8, 97);
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+     }
+}
+.SMALLCIRCLE{
+    width:300px;
+    height:400px;
+    border-radius: 50%;
+    background-color: black;
+    border:20px solid rgb(41, 42, 43);
+    position: absolute;
+   left: -17%;
+   top:30px;
+}
+.SMALLCIRCLE2{
+    width:308px;
+    height:250px;
+    border-radius: 50%;
+    background-color: black;
+    border:20px solid rgb(41, 42, 43);
+    position: absolute;
+   right:-7%;
+   top:-29%;
+}
+.SMALLCIRCLE3{
+    width:308px;
+    height:308px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border:3px solid rgb(41, 42, 43);
+    border-top: 3px solid black;
+    position: absolute;
+    right:-13%;
+    bottom:-9%;
+}
+ .SUBSMALLCIRCLE3 {
+      width:240px;
+    height:240px;
+    border-radius: 50%;
+    background-color:  rgb(170, 8, 97);
+} 
+.NAMEBOX{
+    position: relative;
+    left:24%;
+    color:white;
+    background-color:black;
+    width:40%;
+    text-align: center;
+h1{
+    font-family: cursive;
+    font-size: 70px;
+    letter-spacing: 17px;
+    }
+p{
+    font-size: 25px;
+    font-family: cursive;
+    letter-spacing: 4px;
+    margin-left: 7%;
+}
+}
+.YEAR{
+    position: absolute;
+    bottom:50px;
+    left:50%;
+    /* background-color: aqua; */
+    color:aliceblue;
+    font-size: 19px;
+    letter-spacing: 7px;
+}
+/* ------------------------------------------2-CONTAINER-------------------------------------------- */
+
+.BACKBOX{
+ /* background-color: blueviolet; */
+
+}
+.SIDECIRCLE1{
+    height: 729px;
+    width: 265px;
+    border-radius: 50%;
+    border: 3px solid rgb(170, 8, 97);
+    position: absolute;
+    top: -7%;
+    left: -100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.ADDERCIRCLE{
+   min-height: 100px;
+   display:grid;
+   gap:10px; 
+}
+.ROUND{color:white;
+    text-decoration: none;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    border: 3px solid rgb(170, 8, 97);
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+.ROUND11,.ROUND22,.ROUND33,.ROUND44,.ROUND55{
+    color:white;
+    background-color:  rgb(170, 8, 97);
+}
+.ROUND:hover{
+    color:white;
+    background-color:  rgb(170, 8, 97);
+}
+.PARABOX{
+    width: 47%;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    position: absolute;
+    left: 18%;
+    top:27%;
+    color:white;
+    background-color: black;
+    h1{
+        font-size: 100px;
+        letter-spacing: 5px;
+        font-family: cursive;
+    }
+    p{
+        font-size:20px ;
+        font-family: cursive;
+    }
+    }
+    .JOINMYNAME{
+        display: flex;
+        flex-direction: column;
+    }
+    .NAME{
+        font-family: cursive;
+        font-size: 20px;
+    }
+    .PHOTOTOPCIRCLE{
+        width: 599px;
+        height: 550px;
+        border-radius: 50%;
+        border: 5px solid rgb(170, 8, 97);
+        position: absolute;
+        top: -42%;
+        right: -9%;
+    }
+.PHOTODIV{
+       border: 5px solid rgb(170, 8, 97);
+}
+.REDTOP{
+        width:50%;
+        height:705px;
+        border-radius: 50%;
+        background-image: url("./black-red.jpeg");
+        background-position-x: -33%;
+        background-position-y:19% ;
+        background-repeat: no-repeat;
+        background-size: 70%;
+/* background-image: url("./pink-blue.jpeg");
+background-position-x: 210%;
+background-position-y:25% ; */
+/* background-image: url("./musi-baloon.jpeg");
+background-position: 190% 30%; */
+/* background-image: url("./uru.jpeg");
+background-position:10% 30%;  */
+/* background-image: url("./musi-hostel.jpeg");
+background-size: 50%;
+/* background-position: 150% 30%;  */
+        position: absolute;
+        top:3px;
+        right:-25%;
+        border: 5px solid rgb(161, 11, 11);
+}
+.PHOTOBELOW{
+        width:270px;
+        height:270px;
+        border-radius: 50%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-right:none; 
+        border-top:none;
+        border-bottom:2px solid black;
+        border-left:2px solid  rgb(170, 8, 97);
+        position:absolute;
+        right:3%;
+        bottom: -20%;
+        transform:rotate(50deg);
+}
+    .SUBPHOTOBELOW{
+        height:220px;
+        width:220px;
+        border-radius: 50%;
+        background-color:  rgb(170, 8, 97);
+}
+/* -------------3-CONTAINER---------------- */
+/* box3*/
+
+.BOX3{
+    color:white;
+}
+.ABOUT-TOPIC-NAME{
+     
+    text-shadow: 2px 2px 4px rgb(170, 8, 97) ,4px 4px 6px rgba(4, 7, 8, 0.973);
+}
+.CUBE {
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left:80%;
+    bottom:20%;
+    transform-style: preserve-3d;
+    animation: spin 5s infinite linear;
+}
+.FACE {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    border: 2px dashed white;
+    background-color: black;
+    grid-template-columns: auto auto auto;
+    gap:2px;
+}
+.TOP {
+        /* background-color: rgba(106, 90, 205,.6); */
+    transform: rotateX(45deg) translateZ(50px);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap:4px; */
+}
+.BOTTOM {
+    transform: rotateX(-135deg) translateZ(50px);
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+}
+.RIGHT {
+    transform:rotateY(360deg)rotateX(-45deg) translateZ(50px);
+    grid-template-columns: auto auto auto;
+}
+.LEFT {
+    transform: rotateY(-360deg) rotateX(135deg) translateZ(50px);
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.BACK{
+    transform: rotateX(-135deg) rotateY(90deg) translateZ(50px);  
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.FRONT {
+    transform: rotateX(135deg) rotateY(-90deg) translateZ(50px);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap:4px; */
+}
+.BOXS{
+    transform:rotate(45deg);
+    width:30px;
+    height:30px;
+    border: 3px double white;
+    opacity: 0.2;
+}
+.HEADABOUT{
+    position: absolute;
+    top:16%;
+    left:47%;
+}
+.ABOUT{
+    position: absolute;
+    left:25%;
+    top:33%;
+    width:50%;
+    font-family: cursive;  
+    font-size: 20px;
+    line-height: 1.5;
+   }
+
+.BIGQUOTES1 {
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: -9%;
+    top: 31px;
+}
+.BIGQUOTES2{
+    font-size: 30px;
+    font-family: cursive;
+    position: absolute;
+    left: 50%;
+    bottom: -6%;    
+}
+@keyframes spin {
+    from {
+        transform: rotateY(360deg) rotateX(0deg);
+    }
+    to {
+        transform: rotateY(-180deg) rotateX(0deg);
+    }
+}
+/* -----------------------------------------CONTAINER-4----------------------------------------------- */
+.BOX4{
+ color:white;
+}
+.SKILL-CONTAINER{
+    min-height:580px;
+  /* background-color: blueviolet; */
+    position: relative;
+    margin-left:13%;
+}
+.SKILL-TOPICNAME{
+    position: absolute;
+   text-shadow: 2px 2px 4px rgb(170, 8, 97) ,4px 4px 6px rgba(4, 7, 8, 0.973);
+    top:50%;
+    left:45%;
+}
+.SKILLBOX{
+    width:40%;
+    text-align: center;
+/* background-color:brown; */
+h4{
+    font-family:serif;
+}
+}
+.SKILL-ROUND{
+    height:45px;
+    width:45px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    border:3px solid rgb(170, 8, 97);
+}
+.SKILL-BIG-LINE{
+    width: 26%;
+   border:2px solid rgb(170, 8, 97);
+    /* background-color: yellow; */
+}
+.SKILL-SMALL-LINE{
+    border:2px solid rgb(170, 8, 97);
+    width:3%;
+}
+.SKILLBOX1{
+    position: absolute;
+    top:5px;
+}
+
+/* 1 Line*/
+.HOLE1{
+    position: absolute;
+    left:17%;
+    top:18%;
+}
+.BIG1LINE{
+    position: absolute;
+    left: 19.5%;
+    top: 32.8%;
+    transform: rotate(24deg);
+}
+.SMALL1LINE{
+    position: absolute;
+    left: 43.6%;
+    top: 46%;
+    transform: rotate(61deg);
+}
+/*2 line*/
+.HOLE2{
+    position: absolute;
+    right: 20.9%;
+    top: 16.4%;
+}
+.BIG2LINE{
+    position: absolute;
+    right: 23%;
+    top: 33%;
+    transform: rotate(-24deg);
+}
+.SMALL2LINE{
+    position: absolute;
+    right: 47%;
+    top: 46%;
+    transform: rotate(-61deg);
+}
+/*3 line*/
+.HOLE3{
+    position: absolute;
+    left:15%;
+    top:60%;
+}
+.BIG3LINE{
+    position: absolute;
+    left: 18.6%;
+    bottom: 37%;
+    transform: rotate(-3.7deg);
+    width:24.8%;
+}
+.SMALL3LINE{
+    position: absolute;
+    left: 43%;
+    bottom: 40%;
+    transform: rotate(-29deg);
+}
+/*4 line*/
+.HOLE4{
+    position: absolute;
+    right:18%;
+    top:61%; 
+}
+.BIG4LINE{  
+    position: absolute;
+    right: 21.6%;
+    bottom: 36%;
+    transform: rotate(3.8deg);
+    width:24.8%;}
+.SMALL4LINE{
+    position: absolute;
+    right: 45.8%;
+    bottom: 39%;
+    transform: rotate(29deg);
+}
+/*5 line*/
+.HOLE5{
+    position: absolute;
+    bottom:8px;
+    left:26.5%;
+}
+.SMALL5LINE{
+    position: absolute;
+    left: 45%;
+    bottom: 33%;
+    transform: rotate(-75deg);
+}
+.BIG5LINE {
+    position: absolute;
+    left: 28.2%;
+    bottom: 18.5%;
+    transform: rotate(-36.5deg);
+    width: 20%;
+}
+/*6 line*/
+.HOLE6{
+    position: absolute;
+    bottom:5%;
+    right:25.7%;
+}
+.SMALL6LINE{
+    position: absolute;
+    right: 48%;
+    bottom: 33%;
+    transform: rotate(62deg);
+}
+.BIG6LINE {
+    position: absolute;
+    right: 28.1%;
+    bottom: 19.9%;
+    transform: rotate(28.3deg);
+    width: 22%;
+}
+.SKILLBOX2{
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.SKILL-ROUND{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.SKILLBOX3{
+    position: absolute;
+    top:43%;
+    left:0%;
+}
+.SKILLBOX4{
+    position: absolute;
+    top:43%;
+    right:0%;
+}
+.SKILLBOX5{
+    position: absolute;
+    bottom:70px;
+}
+.SKILLBOX6{
+    position: absolute;
+    bottom:70px;
+    right:0px;
+}
+/* ----------------------------------------CONTAINER-5--------------------------------------------- */
+.EDUBX{
+    color:white;
+    /* background-color:#c061a8; */
+    width:70%;
+    position:absolute;
+    left:18%;
+    top:5%;
+h1{
+    width:100%;
+    /* background-color: green; */
+    text-shadow: 2px 2px 4px rgb(170, 8, 97) ,4px 4px 6px rgba(4, 7, 8, 0.973);
+    text-align: center;
+    }
+/* width:40%; */
+}
+.EDUCATION-BOX{
+   width:75%;  
+}
+
+/* ----------------------------------------CONTAINER-6--------------------------------------------- */
+.BOX6{
+/* background-color: wheat;     */
+}
+ 
+.SLIDE{
+    width:350px;
+    height:250px;
+    border-radius:0px 20px 20px 0px;
+    transform-origin: left center;     /*left only left fixed*/
+    transition: transform 1s ease;
+    border:5px double rgba(9, 10, 10, 0.973);
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: linear-gradient(135deg, #b84c9d, rgb(170, 8, 97));
+    cursor: pointer;
+h1{
+    font-size: 100px;
+    color:black;
+}
+h4{
+    background: linear-gradient(160deg, #c061a8, rgb(170, 8, 97));
+    font-size: 50px;
+    position: absolute;
+    color:rgb(241, 235, 235);
+    top:55%}    
+}
+.PROJECT-IMG{
+    padding:20px;
+    text-align: center;
+img{
+    border:2px solid black;
+    width:100%;
+    height:180px;
+}
+}
+.SLIDE11,
+.SLIDE1{
+    top:8%;
+    left:30%;
+}
+.SLIDE22
+,.SLIDE2{
+     /* box-shadow: 10px 10px 2px rgb(129, 125, 127); */
+    bottom:8%;
+    left:30%;
+}
+.SLIDE33
+,.SLIDE3{
+    top:8%;
+    right:10%;
+}
+.SLIDE44
+,.SLIDE4{
+    bottom:8%;
+    right:10%;
+}
+.SLIDE2:hover ,
+.SLIDE4:hover ,
+.SLIDE1:hover ,
+.SLIDE3:hover{
+    transform: rotateY(180deg);
+}
+/* ----------------------------------------CONTAINER-7--------------------------------------------- */
+.BOX7{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+h1{
+    border-radius: 25px;
+    color:white;
+    background-color:rgb(170, 8, 97)  ;
+    position: absolute;
+    left:30%;
+    top:15%;
+    padding:10px 20px;
+    border:5px double black;
+    font-size: 30px;
+    text-shadow: 3px 3px 4px rgb(170, 8, 97) , 3px 3px 4px rgb(22, 16, 19);
+}
+}
+.CONTEXT{
+    width:50%;
+    border-radius: 10px;
+    background-color: white;
+    border:3px double black;
+    padding:50px 60px;
+    /* background-image: url("./bacground-sea.jpeg"); */
+/* background-position-y:30% ; */
+    box-shadow: 4px 4px 5px rgb(170, 8, 97),5px 5px 6px white;
+    font-size: 20px;
+a{
+    color:black;}
+i{
+    border-radius: 50%;
+    color:white;
+    padding:10px;
+    background-color:rgb(170, 8, 97);
+}
+}
+.CNTIMG{
+    position: absolute;
+    width:400px;
+    right:20%;
+}
+/* plant----------------------------------- */
+.PLANT1{
+    position: absolute;
+    left: 15%;
+    bottom: 0%;
+    }
+.PLANT2{
+    position: absolute;
+    right: 15%;
+    bottom: 0%;
+}
+      /* Plant base */
+.plant {
+        /* position: relative; */
+        /* bottom: 80px; sit on soil */
+        /* left:0%; */
+}
+/* Stem */
+.stem {
+    width: 10px;
+    height: 0;
+    background: green;
+    margin: auto;
+    position: relative;
+    transform-origin: bottom center;
+    animation: growStem 4s ease forwards, sway 4s ease-in-out infinite 4s;
+}
+@keyframes growStem {
+        from {
+          height: 0px;
+        }
+        to {
+          height: 220px;
+        }
+}
+@keyframes sway {
+        0% {
+          transform: rotate(0deg);
+        }
+        25% {
+          transform: rotate(3deg);
+        }
+        50% {
+          transform: rotate(0deg);
+        }
+        75% {
+          transform: rotate(-3deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+}
+
+      /* Leaves */
+.leaf {
+    width: 60px;
+    height: 30px;
+    background: #228b22;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    animation: showLeaf 1s ease forwards;
+    animation-delay: 3s;
+}
+.leaf.left {
+    left: -60px;
+    top: 100px;
+    transform: rotate(-30deg);
+}
+.leaf.right {
+    right: -60px;
+    top: 150px;
+    transform: rotate(30deg);
+}
+@keyframes showLeaf {
+    from {
+          opacity: 0;
+          transform: scale(0);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+}
+/* Flower */
+      .flower {
+        position: absolute;
+        top: -70px;
+        left: 50%;
+        transform: translateX(-50%) scale(0);
+        opacity: 0;
+        animation: bloom 2s ease forwards 5s,
+          counterSway 4s ease-in-out infinite 4s;
+        transform-origin: bottom center;
+      }
+
+      @keyframes bloom {
+        from {
+          transform: translateX(-50%) scale(0);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(-50%) scale(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes counterSway {
+        0% {
+          transform: translateX(-50%) scale(1) rotate(0deg);
+        }
+        25% {
+          transform: translateX(-50%) scale(1) rotate(-3deg);
+        }
+        50% {
+          transform: translateX(-50%) scale(1) rotate(0deg);
+        }
+        75% {
+          transform: translateX(-50%) scale(1) rotate(3deg);
+        }
+        100% {
+          transform: translateX(-50%) scale(1) rotate(0deg);
+        }
+      }
+
+      /* Petals arranged in circle */
+      .petal {
+        width: 50px;
+        height: 70px;
+        background: pink;
+        /* background-color: rgb(170, 8, 97); */
+        border-radius: 50% ;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform-origin: bottom center;
+      }
+
+      .petal:nth-child(1) {
+        transform: translateX(-50%) rotate(0deg);
+      }
+      .petal:nth-child(2) {
+        transform: translateX(-50%) rotate(72deg);
+      }
+      .petal:nth-child(3) {
+        transform: translateX(-50%) rotate(144deg);
+      }
+      .petal:nth-child(4) {
+        transform: translateX(-50%) rotate(216deg);
+      }
+      .petal:nth-child(5) {
+        transform: translateX(-50%) rotate(288deg);
+      }
+
+      /* Flower center */
+      .center {
+        width: 40px;
+        height: 40px;
+        background: yellow;
+        /* background-color: white; */
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+      }
+   
+
+/* ----------------------------Media Quory------------------------------- */
+/* comman used media quory */
+@media only screen and (min-width:300px) and (max-width:600px){
+.SMALLCIRCLE{
+    height:358px;
+    left:80%;
+    top:-90px;
+}
+.SIDECIRCLE1{
+    left: -169px;
+}
+.ADDERCIRCLE{
+        margin-left: 54%;
+}
+.SIDECIRCLE1 {
+        left: -174px;
+}
+.ROUND {
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+}
+
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:600px){
+/* BOX1===================================== */
+.CIRCLE{
+    left:-203%;
+}
+.SIDECIRCLE1{
+    left: -169px;
+}
+.ADDERCIRCLE{
+    margin-left: 54%;
+}
+.NAMEBOX{
+h1{
+    font-size: 24px;
+    letter-spacing: 9px;
+}
+p{
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+}
+.SMALLCIRCLE2{
+    right:-40%;
+}
+.ABOUT{
+    left: 33%;
+    top: 12%;
+    p {
+    font-size: 11px;
+    margin-left: 9%;
+    }
+}
+.SMALLCIRCLE3 {
+    width: 200px;
+    height: 200px;
+    border-top: 5px solid black;
+    position: absolute;
+    right: -33%;
+    transform: rotateZ(-3deg);
+    /* background-color: red; */
+}
+.SUBSMALLCIRCLE3 {
+    width: 150px;
+    height: 150px
+}
+.YEAR{
+    left: 37%;
+}
+.THREEDOT {
+    bottom: 10%;
+    right: -38px;
+.DOT{
+    height:15px;
+    width:15px;
+}
+}
+/* BOX2=====================================> */
+    .PHOTOBELOW {
+        right: -39%;
+        bottom: -26%;
+    }
+.PHOTOTOPCIRCLE {
+    display: none;
+}
+.PARABOX {
+    width: 60%;
+    left: 34%;
+    top: 38%;
+p{
+    font-size: 15px;
+}
+h1{
+    font-size: 25px;
+   }
+}
+.NAME {
+   font-size: 16px;
+  }
+  .REDTOP {
+    width: 200px;
+    height: 200px;
+    background-position-x: 52%;
+    background-position-y: 23%;
+    background-repeat:repeat;
+    background-size: 86%;
+    top: 30px;
+    right: 5%;
+    border: 2px dashed black;
+  }
+/* BOX3=====================================> */
+.CUBE {
+    margin-left: -37%;
+    margin-bottom: -2%;
+    }
+.ABOUT {
+    left: 32%;
+    top: 20%;
+    width: 63%;
+    line-height: 1.7;
+}
+.ABOUT-TOPIC-NAME {
+    margin-top: -23px;
+    font-size: 40px;
+}
+.BIGQUOTES2 {
+    font-size: 20px;
+    left: 28%;
+    bottom: 0%;
+}
+.BIGQUOTES1 {
+    font-size: 20px;
+    left: -2%;
+    top: 20px;
+}
+/* box4============================== */
+.SKILL-TOPICNAME {
+    top: -4%;
+    left: 41%;
+    font-size: 30px;
+}
+.SKILLBOX{  
+    width: 70%;
+    font-size: 9px;
+}
+.SKILL-ROUND{
+    height:30px;
+    width:30px;
+}
+.SKILLBOX1 {
+    top: 6%;
+    left: 25%;
+}
+    .HOLE1 {
+        left: 26%;
+        top: 5.5%;
+    }
+    .BIG1LINE {
+        left: 34%;
+        top: 9.8%;
+        width: 59%;
+    }
+    .SMALL1LINE {
+        left: 91%;
+        top: 9.3%;
+    }
+.SKILLBOX2 {
+    top: 22%;
+    right: 5%;
+}
+    .HOLE2 {
+        right: 63.9%;
+        top: 21.3%;
+    }
+    .BIG2LINE {
+        left: 32.5%;
+        top: 25.8%;
+        width: 59%;
+    }
+    .SMALL2LINE {
+        left: 89.4%;
+        top: 25.3%;
+    }
+.SKILLBOX3 {
+        top: 38%;
+        left: 25%;
+}
+.HOLE3{
+    left: 25%;
+    top: 38%;
+    }
+    .BIG3LINE {
+        left: 32%;
+        bottom: 57%;
+        width: 59%;
+    }
+.SMALL3LINE {
+        left: 89%;
+        bottom: 57.6%;
+    }
+.SKILLBOX4 {
+        top: 54%;
+        right: 5%;
+    }
+.HOLE4 {
+        right: 65%;
+        top: 54%;
+    }
+   .BIG4LINE {
+        right: 9%;
+        bottom: 41%;
+        width: 59%;
+    }
+
+.SMALL4LINE {
+  
+    bottom: 41.8%;
+    right: 8%;
+   
+}
+.SKILLBOX5 {
+    bottom: 15%;
+    right: 5%;
+}
+    .HOLE5 {
+        bottom: 25.4%;
+        left: 24.5%;
+    }
+.SMALL5LINE {
+    left: 89%;
+    bottom: 26%;
+}
+.BIG5LINE {
+    left: 32.2%;
+    bottom: 25.5%;
+    width: 59%;
+}
+    .SKILLBOX6 {
+        bottom: -5px;
+        right: 18px;
+    }
+    .HOLE6 {
+        right: 64.7%;
+        bottom: 10%;
+    }
+.BIG6LINE {
+        right: 10%;
+        bottom: 10%;
+        width: 59%;
+    }
+    .SMALL6LINE {
+        right: 9.4%;
+        bottom: 10.7%;
+    }
+.SKILL-BIG-LINE{
+  transform: rotate(0deg);
+}
+.SKILL-SMALL-LINE {
+ transform: rotate(90deg);
+}
+/* box 5================================= */
+.EDUBX {
+    left: 36%;
+    top: 5%;
+}
+.EDUCATION-BOX {
+    width: 90%;
+    font-size: 12px;
+    margin-top: 13%;
+}
+.BOX5{
+.SMALLCIRCLE2 {
+    display: none;
+}
+.SMALLCIRCLE3 {
+    display: none;
+}
+}
+.EDUBX {
+h1 {
+    margin-left: -45px;
+    }
+.EDU{
+h6 {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+button{
+    padding: 0px 10px 0px 10px;
+    border: 2px solid  rgb(170, 8, 97);
+    background-color: white;
+    border-radius: 4px;
+
+}
+}
+}
+/* box=6================================ */
+.SLIDE {
+   
+}
+.SLIDE {
+    width: 200px;
+    height: 140px;
+h1 {
+    font-size: 83px;
+ }
+h4{
+font-size: 35px;
+}
+}
+.SLIDE11, .SLIDE1 {
+    top: 6%;
+    left: 33%;
+}
+.SLIDE22, .SLIDE2 {
+    bottom: 49%;
+    left: 33%;
+}
+.SLIDE33, .SLIDE3 {
+    top: 52%;
+    right: 4%;
+}
+.SLIDE44, .SLIDE4 {
+    bottom: 3%;
+    right: 4%;
+}
+.PROJECT-IMG {
+img {
+    border: 2px solid black;
+    width: 100%;
+    height: 72%;
+}
+}
+/* BOX7============================== */
+
+.BOX7{  
+h1 {
+    left: 21%;
+    top: 3%;
+    padding: 8px 15px;
+    font-size: 25px;
+}
+.SMALLCIRCLE2 {
+    display: none;
+}
+.SMALLCIRCLE {
+    display: none;
+}
+}
+.CONTEXT {
+    width: 92%;
+    padding: 40px 30px;
+    font-size: 16px;
+    margin-top: -28%;
+}   
+.CNTIMG {
+    width: 67%;
+    right: -4%;
+    top: 36%;
+}
+@keyframes growStem {
+from {
+    height: 0px;
+}
+to {
+    height: 100px;
+}
+}
+.center{
+    width: 28px;
+    height: 28px;
+    top: 34px;
+    left: 30%;
+}
+.petal {
+    width: 30px;
+    height: 50px;
+}
+.leaf.left {
+    left: -50px;
+    top: 30%;
+}
+.leaf {
+    width: 52px;
+    height: 25px;
+}
+.PLANT1 {
+   left: 19%;
+}
+.PLANT2 {
+  right: 41%;
+}
+/* phone END ------------------------------- */
+}
+
+
+
+/* Tablet   +++++++++++++++++++++++++++++++ */
+@media only screen and (min-width:600px) and (max-width:900px){
+/* BOX-1 ==================================== */
+/* .PORTPOLIO-WELCOME{
+    min-height:555px;
+    
+} */
+.SMALLCIRCLE2 {
+    right: -11%;
+    top: -27%;
+}
+.SMALLCIRCLE {
+    left: -30%;
+    top: 46px;
+}
+.CIRCLE {
+   left: -65%;
+}
+.NAMEBOX {
+h1{
+    font-size: 37px;
+}
+p{
+    font-size: 15px;
+}
+}
+.NAMEBOX {
+   left: 28%;
+}
+.SMALLCIRCLE3 {
+    right: -22%;
+    bottom: -9%;
+}
+.THREEDOT {
+    bottom: 109px;
+    right: 22%;
+}
+.PARABOX {
+    width: 50%;
+    left: 24%;
+    top: 38%;
+}
+.PARABOX {
+    h1 {
+        font-size: 50px;
+}
+p {
+        font-size: 15px;
+}
+}
+.PHOTOBELOW {
+    right: 0%;
+    bottom: -20%;
+}
+.PHOTOTOPCIRCLE {
+    top: -42%;
+    right: -28%;
+}
+.REDTOP {
+    top: -26px;
+    right: -22%;
+    background-position-x: 222%;
+    background-position-y: 20%;
+    background-size: cover;
+}
+.HEADABOUT {
+    top: 6%;
+}
+.ABOUT {
+    left: 28%;
+    top: 13%;
+    width: 60%;
+}
+.CUBE {
+    left: 48%;
+    bottom: 18%;
+}
+.BIGQUOTES2 {
+    left: 69%;
+    bottom: -1%;
+}
+.SLIDE {
+    width: 267px;
+    height: 239px;
+ 
+}
+.SLIDE11, .SLIDE1 {
+    top: 8%;
+    left: 25%;
+}
+.SLIDE22, .SLIDE2 {
+    bottom: 8%;
+    left: 25%;
+}
+.SLIDE33, .SLIDE3 {
+    top: 8%;
+    right: 3%;
+}
+.SLIDE44, .SLIDE4 {
+    bottom: 8%;
+    right: 3%;
+}
+.EDUBX {
+   left: 26%;
+    top: 5%;
+h1 {
+        margin-left: -11%;
+    }
+}
+.SKILL-TOPICNAME {
+    top: -4%;
+    left: 41%;
+    font-size: 30px;
+}
+.SKILLBOX {
+    font-size: 16px;
+    width:70%;
+}
+.SKILLBOX {
+  text-align: start;
+}
+.SKILLBOX {
+h4 {
+    font-family: system-ui;
+    font-size: 23px;
+}
+}
+.SKILL-ROUND {
+    height: 40px;
+    width: 40px;
+    }
+.SKILLBOX1 {
+    top: 5%;
+    left: 25%;
+}
+.HOLE1 {
+    left: 17%;
+    top: 4.5%;
+}
+
+.BIG1LINE {
+    left: 21%;
+    top: 15%;
+ 
+}
+.SMALL1LINE {
+    left: 21.4%;
+    top: 11.1%;
+}
+.SKILLBOX2 {
+        top: 22%;
+        right: 5%;
+    }
+.HOLE2 {
+        right: 76.9%;
+        top: 20.3%;
+    }
+     .BIG2LINE {
+        left: 21%;
+        top: 31.7%;
+     
+    }
+   .SMALL2LINE {
+        left: 21.4%;
+        top: 27.3%;
+    }
+.SKILLBOX3 {
+        top: 38%;
+        left: 25%;
+}
+    .HOLE3 {
+        left: 16.8%;
+        top: 38%;
+    }
+.BIG3LINE {
+        left: 21%;
+        bottom: 51.4%;
+        width: 59%;
+    }
+.SMALL3LINE {
+        left: 21.5%;
+        bottom: 55.3%;
+    }
+
+.SKILLBOX4 {
+        top: 54%;
+        right: 5%;
+    }
+.HOLE4 {
+        right: 77%;
+        top: 54%;
+    }
+      .BIG4LINE {
+        right: 73%;
+        bottom: 35%;
+       
+    }
+
+    .SMALL4LINE {
+        bottom: 39%;
+        right: 75.6%;
+    }
+.SKILLBOX5 {
+    bottom: 13%;
+    right: 5%;
+}
+    .HOLE5 {
+               bottom: 23.4%;
+        left: 16.7%;
+    }
+    .SMALL5LINE {
+        left: 21.6%;
+       bottom: 23.9%;
+    }
+    .BIG5LINE {
+        left: 21.2%;
+               bottom: 19.5%;
+      
+    }
+.SKILLBOX6 {
+      bottom: -13px;
+        right: 34px;
+    }
+
+       .HOLE6 {
+        right: 76.9%;
+               bottom: 9%;
+    }
+    .BIG6LINE {
+        right: 73%;
+              bottom: 4.5%;
+    
+    }
+      .SMALL6LINE {
+        right: 75.6%;
+       
+        bottom: 8.7%;
+    }
+.SKILL-BIG-LINE {
+     width: 6%;
+    transform: rotate(90deg);
+}
+.SKILL-SMALL-LINE {
+     width: 3%;
+    transform: rotate(35deg);
+}
+/* box7========================== */
+.CONTEXT {
+    width: 55%;
+}
+.CNTIMG {
+ 
+    width: 36%;
+    right: 17%;
+    top: 35%;
+}
+.PLANT2 {
+
+    right: 28%;
+    bottom: 0%;
+}
+@keyframes growStem {
+from {
+    height: 0px;
+}
+to {
+    height: 50px;
+}
+}
+.center{
+    width: 28px;
+    height: 28px;
+    top: 34px;
+    left: 30%;
+}
+.petal {
+    width: 30px;
+    height: 50px;
+}
+.leaf.left {
+    left: -50px;
+    top: 30%;
+}
+.leaf {
+    width: 52px;
+    height: 25px;
+}
+}
