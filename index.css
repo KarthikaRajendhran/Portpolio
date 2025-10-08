@@ -7,10 +7,14 @@ body{
     background-color:black !important;
     /* border: 2px solid white; */
 
+
 }
+
 .CONTAINER{    
 }
 .PORTPOLIO-WELCOME{
+ 
+
     width:100%;
     min-height:640px;
     position: relative;
@@ -26,7 +30,7 @@ body{
 }
 .CIRCLE{
     background-color: black;
-    border:4px solid rgb(170, 8, 97);
+    border:4px solid rgb(99, 134, 199);
     height:725px;
     width:800px;
     border-radius: 50%;
@@ -41,7 +45,7 @@ body{
     bottom: 100px;
     right:34%;
   .DOT{
-    background-color:rgb(170, 8, 97);
+    background-color:rgb(99, 134, 199);
     height:20px;
     width:20px;
     border-radius: 50%;
@@ -85,7 +89,7 @@ body{
       width:240px;
     height:240px;
     border-radius: 50%;
-    background-color:  rgb(170, 8, 97);
+    background-color:  rgb(99, 134, 199);
 } 
 .NAMEBOX{
     position: relative;
@@ -125,7 +129,7 @@ p{
     height: 729px;
     width: 265px;
     border-radius: 50%;
-    border: 3px solid rgb(170, 8, 97);
+    border: 3px solid rgb(99, 134, 199);
     position: absolute;
     top: -7%;
     left: -100px; 
@@ -144,7 +148,7 @@ p{
     height:50px;
     width:50px;
     border-radius: 50%;
-    border: 3px solid rgb(170, 8, 97);
+    border: 3px solid rgb(99, 134, 199);
     background-color:black ;
     display: flex;
     align-items: center;
@@ -154,11 +158,11 @@ p{
 }
 .ROUND11,.ROUND22,.ROUND33,.ROUND44,.ROUND55{
     color:white;
-    background-color:  rgb(170, 8, 97);
+    background-color:  rgb(99, 134, 199);
 }
 .ROUND:hover{
     color:white;
-    background-color:  rgb(170, 8, 97);
+    background-color:  rgb(99, 134, 199);
 }
 .PARABOX{
     width: 47%;
@@ -177,7 +181,7 @@ p{
     }
     p{
         font-size:20px ;
-        font-family: cursive;
+        /* font-family: cursive; */
     }
     }
     .JOINMYNAME{
@@ -185,20 +189,20 @@ p{
         flex-direction: column;
     }
     .NAME{
-        font-family: cursive;
+        /* font-family: cursive; */
         font-size: 20px;
     }
     .PHOTOTOPCIRCLE{
         width: 599px;
         height: 550px;
         border-radius: 50%;
-        border: 5px solid rgb(170, 8, 97);
+        border: 5px solid rgb(99, 134, 199);
         position: absolute;
         top: -42%;
         right: -9%;
     }
 .PHOTODIV{
-       border: 5px solid rgb(170, 8, 97);
+       border: 5px solid rgb(99, 134, 199);
 }
 .REDTOP{
         width:50%;
@@ -222,7 +226,7 @@ background-size: 50%;
         position: absolute;
         top:3px;
         right:-25%;
-        border: 5px solid rgb(161, 11, 11);
+        border: 5px solid rgb(99, 134, 199);
 }
 .PHOTOBELOW{
         width:270px;
@@ -234,7 +238,7 @@ background-size: 50%;
         border-right:none; 
         border-top:none;
         border-bottom:2px solid black;
-        border-left:2px solid  rgb(170, 8, 97);
+        border-left:2px solid  rgb(99, 134, 199);
         position:absolute;
         right:3%;
         bottom: -20%;
@@ -244,7 +248,7 @@ background-size: 50%;
         height:220px;
         width:220px;
         border-radius: 50%;
-        background-color:  rgb(170, 8, 97);
+        background-color:  rgb(99, 134, 199);
 }
 /* -------------3-CONTAINER---------------- */
 /* box3*/
@@ -254,7 +258,7 @@ background-size: 50%;
 }
 .ABOUT-TOPIC-NAME{
      
-    text-shadow: 2px 2px 4px rgb(170, 8, 97) ,4px 4px 6px rgba(4, 7, 8, 0.973);
+    text-shadow: 2px 2px 4px rgb(99, 134, 199) ,4px 4px 6px rgba(4, 7, 8, 0.973);
 }
 .CUBE {
     width: 100px;
@@ -364,7 +368,8 @@ background-size: 50%;
 }
 .SKILL-TOPICNAME{
     position: absolute;
-   text-shadow: 2px 2px 4px rgb(170, 8, 97) ,4px 4px 6px rgba(4, 7, 8, 0.973);
+      text-shadow: 2px 2px 4px rgb(99, 134, 199) ,4px 4px 6px rgba(4, 7, 8, 0.973);
+
     top:50%;
     left:45%;
 }
@@ -383,15 +388,15 @@ h4{
     justify-content: center;
     align-items: center;
     border-radius:50%;
-    border:3px solid rgb(170, 8, 97);
+    border:3px solid rgb(99, 134, 199);
 }
 .SKILL-BIG-LINE{
     width: 26%;
-   border:2px solid rgb(170, 8, 97);
+   border:2px solid rgb(99, 134, 199);
     /* background-color: yellow; */
 }
 .SKILL-SMALL-LINE{
-    border:2px solid rgb(170, 8, 97);
+    border:2px solid rgb(99, 134, 199);
     width:3%;
 }
 .SKILLBOX1{
@@ -550,7 +555,7 @@ h4{
 h1{
     width:100%;
     /* background-color: green; */
-    text-shadow: 2px 2px 4px rgb(170, 8, 97) ,4px 4px 6px rgba(4, 7, 8, 0.973);
+    text-shadow: 2px 2px 4px rgb(99, 134, 199) ,4px 4px 6px rgba(4, 7, 8, 0.973);
     text-align: center;
     }
 /* width:40%; */
@@ -576,14 +581,14 @@ h1{
     justify-content: center;
     align-items: center;
     position: absolute;
-    background: linear-gradient(135deg, #b84c9d, rgb(170, 8, 97));
+    background: linear-gradient(135deg, rgb(99, 134, 199), rgb(22, 60, 133));
     cursor: pointer;
 h1{
     font-size: 100px;
     color:black;
 }
 h4{
-    background: linear-gradient(160deg, #c061a8, rgb(170, 8, 97));
+    background: linear-gradient(160deg, rgb(99, 134, 199), rgb(12, 40, 94));
     font-size: 50px;
     position: absolute;
     color:rgb(241, 235, 235);
@@ -634,14 +639,14 @@ img{
 h1{
     border-radius: 25px;
     color:white;
-    background-color:rgb(170, 8, 97)  ;
+    background-color:rgb(99, 134, 199)  ;
     position: absolute;
     left:30%;
     top:15%;
     padding:10px 20px;
     border:5px double black;
     font-size: 30px;
-    text-shadow: 3px 3px 4px rgb(170, 8, 97) , 3px 3px 4px rgb(22, 16, 19);
+    text-shadow: 3px 3px 4px rgb(99, 134, 199) ,rgb(22, 16, 19);
 }
 }
 .CONTEXT{
@@ -652,7 +657,7 @@ h1{
     padding:50px 60px;
     /* background-image: url("./bacground-sea.jpeg"); */
 /* background-position-y:30% ; */
-    box-shadow: 4px 4px 5px rgb(170, 8, 97),5px 5px 6px white;
+    box-shadow: 4px 4px 5px rgb(99, 134, 199), rgb(22, 16, 19);
     font-size: 20px;
 a{
     color:black;}
@@ -660,7 +665,7 @@ i{
     border-radius: 50%;
     color:white;
     padding:10px;
-    background-color:rgb(170, 8, 97);
+    background-color:rgb(99, 134, 199);
 }
 }
 .CNTIMG{
@@ -797,7 +802,7 @@ i{
       .petal {
         width: 50px;
         height: 70px;
-        background: pink;
+        background: rgb(99, 134, 199);
         /* background-color: rgb(170, 8, 97); */
         border-radius: 50% ;
         position: absolute;
@@ -840,6 +845,9 @@ i{
 /* ----------------------------Media Quory------------------------------- */
 /* comman used media quory */
 @media only screen and (min-width:300px) and (max-width:600px){
+    body{
+    font-family:'Outfit', sans-serif;
+}
 .SMALLCIRCLE{
     height:358px;
     left:80%;
@@ -866,9 +874,9 @@ i{
 
 @media only screen and (min-width:300px) and (max-width:600px){
 /* BOX1===================================== */
-.CIRCLE{
-    left:-203%;
-}
+    .CIRCLE {
+        left: -172%;
+    }
 .SIDECIRCLE1{
     left: -169px;
 }
@@ -877,11 +885,11 @@ i{
 }
 .NAMEBOX{
 h1{
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 9px;
 }
 p{
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0px;
   }
 }
@@ -896,12 +904,15 @@ p{
     margin-left: 9%;
     }
 }
+a {
+ display: none;
+}
 .SMALLCIRCLE3 {
     width: 200px;
     height: 200px;
     border-top: 5px solid black;
     position: absolute;
-    right: -33%;
+    right: -25%;
     transform: rotateZ(-3deg);
     /* background-color: red; */
 }
@@ -921,9 +932,9 @@ p{
 }
 }
 /* BOX2=====================================> */
-    .PHOTOBELOW {
+       .PHOTOBELOW {
         right: -39%;
-        bottom: -26%;
+        bottom: -24%;
     }
 .PHOTOTOPCIRCLE {
     display: none;
@@ -959,8 +970,8 @@ h1{
     margin-bottom: -2%;
     }
 .ABOUT {
-    left: 32%;
-    top: 20%;
+    left: 28%;
+    top: 22%;
     width: 63%;
     line-height: 1.7;
 }
@@ -970,7 +981,7 @@ h1{
 }
 .BIGQUOTES2 {
     font-size: 20px;
-    left: 28%;
+    left: 102%;
     bottom: 0%;
 }
 .BIGQUOTES1 {
@@ -1068,34 +1079,34 @@ h1{
     right: 5%;
 }
     .HOLE5 {
-        bottom: 25.4%;
-        left: 24.5%;
+        bottom: 23.4%;
+        left: 25.5%;
     }
-.SMALL5LINE {
-    left: 89%;
-    bottom: 26%;
-}
+       .SMALL5LINE {
+        left: 88%;
+        bottom: 24%;
+    }
 .BIG5LINE {
-    left: 32.2%;
-    bottom: 25.5%;
-    width: 59%;
-}
+        left: 31.1%;
+        bottom: 23.5%;
+        width: 59%;
+    }
     .SKILLBOX6 {
         bottom: -5px;
         right: 18px;
     }
-    .HOLE6 {
+       .HOLE6 {
         right: 64.7%;
-        bottom: 10%;
+        bottom: 8%;
     }
-.BIG6LINE {
+    .BIG6LINE {
         right: 10%;
-        bottom: 10%;
+        bottom: 8%;
         width: 59%;
     }
-    .SMALL6LINE {
+       .SMALL6LINE {
         right: 9.4%;
-        bottom: 10.7%;
+        bottom: 8.7%;
     }
 .SKILL-BIG-LINE{
   transform: rotate(0deg);
@@ -1132,7 +1143,7 @@ h6 {
 }
 button{
     padding: 0px 10px 0px 10px;
-    border: 2px solid  rgb(170, 8, 97);
+    border: 2px solid  rgb(99, 134, 199);
     background-color: white;
     border-radius: 4px;
 
@@ -1152,22 +1163,25 @@ h1 {
 h4{
 font-size: 35px;
 }
+h3{
+    font-size: 21px;
+}
 }
 .SLIDE11, .SLIDE1 {
     top: 6%;
-    left: 33%;
+    left: 35%;
 }
 .SLIDE22, .SLIDE2 {
     bottom: 49%;
-    left: 33%;
+    left: 35%;
 }
 .SLIDE33, .SLIDE3 {
     top: 52%;
-    right: 4%;
+    right: 12%;
 }
 .SLIDE44, .SLIDE4 {
     bottom: 3%;
-    right: 4%;
+    right: 12%;
 }
 .PROJECT-IMG {
 img {
@@ -1198,11 +1212,11 @@ h1 {
     font-size: 16px;
     margin-top: -28%;
 }   
-.CNTIMG {
-    width: 67%;
-    right: -4%;
-    top: 36%;
-}
+    .CNTIMG {
+        width: 67%;
+        right: -4%;
+        top: 30%;
+    }
 @keyframes growStem {
 from {
     height: 0px;
