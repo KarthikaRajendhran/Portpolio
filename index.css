@@ -896,6 +896,15 @@ i{
 .ADDERCIRCLE{
     margin-left: 54%;
 }
+.PROJECT-IMG{
+a{
+    font-size: 15px;
+}
+button{
+    padding:2px 20px;
+    box-shadow: 3px 3px 4px rgb(12, 40, 94);
+}
+}
 .NAMEBOX{
 h1{
     font-size: 30px;
@@ -917,9 +926,7 @@ p{
     margin-left: 9%;
     }
 }
-a {
- display: none;
-}
+
 .SMALLCIRCLE3 {
     width: 200px;
     height: 200px;
